@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  max-width: 300px;
+  margin: auto;
+  
+}
+
+main{
+  margin: 20px;
+  
+}
+
+.form{
+  
+  max-width: 500px;
+  margin: auto; 
+
+}

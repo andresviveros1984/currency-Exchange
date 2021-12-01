@@ -1,0 +1,44 @@
+<!-- two drops down
+input for amount
+1 input for currency -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <header>
+      <h3>Currency Exchange</h3>
+    </header>
+    
+    <main>
+      <div class="form">
+        <form>
+      
+          <!-- <input type="number" id="base-currency" placeholder="Select Currency"> -->
+
+          <select id="first-select">
+            <option disabled selected value="select">FROM</option>
+          </select>
+            <select id="second-select" disabled>
+              <option disabled selected value="select">TO</option>
+            </select>
+            
+            <input type="text" id="amount" placeholder="Amount">
+            <button>Convert</button>
+        </form>
+        <h1></h1>
+        <script src="app.js"></script>
+      </div>
+    </main>
+     
+
+  </body>
+</html>
+ 
